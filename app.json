@@ -1,0 +1,17 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/zhihu/splash",
+    "pages/zhihu/themelist",
+    "pages/zhihu/hotnews",
+    "pages/zhihu/normal",
+    "pages/zhihu/detail"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "XioxiazhihuWx",
+    "navigationBarTextStyle":"black"
+  }
+}

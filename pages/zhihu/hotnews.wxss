@@ -1,0 +1,41 @@
+.themes_container {
+    display: flex;
+    flex:1;
+    width: 100%;
+    flex-direction: column;
+}
+.list {
+    flex:1;
+}
+.list_item {
+    display: flex; 
+    flex:1;
+    flex-direction: column;
+    /*background-color: red;*/
+}
+
+.list_top {
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10rpx;
+}
+
+.list_item_text {
+    flex: 1;
+    display: flex;
+    font-size: 40rpx;
+}
+
+.list_item_icon {
+    width: 120rpx;
+    height:120rpx;
+}
+
+.line {
+    flex:1;
+    display: flex;
+    height:2rpx;
+    background-color:black;
+}

@@ -1,0 +1,5 @@
+<view class="themes_container">
+    <text>{{detail.title}}</text>
+    <!--<navigator url="{{detail.share_url}}">{{detail.share_url}}</navigator>-->
+    <text>{{detail.body}}</text>
+</view>

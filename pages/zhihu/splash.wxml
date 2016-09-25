@@ -1,0 +1,4 @@
+<view class="splash_container">
+    <image class="image" src="{{splashData.img}}"></image>
+    <text class="text">{{splashData.text}}</text>
+</view>
