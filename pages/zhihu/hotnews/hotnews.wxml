@@ -1,8 +1,8 @@
 <view class="themes_container">
     <swiper indicator-dots="true" autoplay="true" interval="3000" duration="500">
-        <block wx:for="{{tops}}">
+        <block wx:for="{{tops}}" >
             <swiper-item>
-            <image src="{{item.image}}" class="slide-image"/>
+            <image src="{{item.image}}" class="slide-image" bindtap="onTopClick" data-id="{{item.id}}" data-title="{{item.title}}"/>
             </swiper-item>
         </block>
     </swiper>

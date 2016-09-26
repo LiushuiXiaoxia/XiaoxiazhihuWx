@@ -34,5 +34,13 @@ Page({
     // url = 'http://daily.zhihu.com/story/'+item.id;
     console.log('url = '+url);
      wx.navigateTo({url:url});
+  },
+  onTopClick:function(event){
+    var id = event.currentTarget.dataset.id;
+    var title = event.currentTarget.dataset.title;
+    console.log('id = '+id)
+    var url =  '../detail/detail?id='+id+'&title='+title;
+    console.log('url = '+url);
+     wx.navigateTo({url:url});
   }
 })
