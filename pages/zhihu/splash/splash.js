@@ -20,13 +20,13 @@ Page({
             that.setData({splashData:data});
 
             console.log('splash.gotoNext');  
-            wx.navigateTo({url: './themelist'});
+            wx.navigateTo({url: '../themelist/themelist'});
         },
         fail:function(error) {
             console.log('error = '+error)
 
             console.log('splash.gotoNext');  
-            wx.navigateTo({url: './themelist'});
+            wx.navigateTo({url: '../themelist/themelist'});
         }
     });
   }

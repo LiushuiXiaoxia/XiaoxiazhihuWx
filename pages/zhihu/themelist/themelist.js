@@ -15,7 +15,7 @@ Page({
             var data = res.data;
             console.log('data = '+JSON.stringify(data));
             var temp = [];
-            temp.push({'name':'今日热闻','thumbnail':null})
+            temp.push({'name':'今日热闻','thumbnail':null,'description':'今日热闻'})
             for(var i in data.others){
               temp.push(data.others[i]);
             }            
@@ -31,9 +31,9 @@ Page({
     var item = this.data.themes[idx];
     console.log('item = '+JSON.stringify(item))
     if(item.id){
-      wx.navigateTo({url: 'normal?id='+item.id+'&title='+item.name});   
+      wx.navigateTo({url: '../normal/normal?id='+item.id+'&title='+item.name});
     } else {
-      wx.navigateTo({url: 'hotnews'});      
+      wx.navigateTo({url: '../hotnews/hotnews'});
     }
   }
 })

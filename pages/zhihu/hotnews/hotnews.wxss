@@ -16,9 +16,16 @@
 .list_top {
     flex:1;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    margin: 10rpx;
     padding: 10rpx;
+    /*background: red;    */
+    /*border-width:20rpx;
+    border-color: blue;
+    border-radius: 20rpx;*/
+
+    border: 1rpx solid #eee;
+    border-bottom: 1rpxpx solid #ccc;
+    border-radius: 5rpx;
 }
 
 .list_item_text {
@@ -28,8 +35,8 @@
 }
 
 .list_item_icon {
-    width: 80rpx;
-    height:80rpx;
+    width: 200rpx;
+    height:200rpx;
 }
 
 .line {

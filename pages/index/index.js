@@ -10,8 +10,8 @@ Page({
   bindViewTap: function() {
     wx.navigateTo({
       // url:'../logs/logs'
-      // url: '../zhihu/splash'      
-      url: '../zhihu/themelist'
+      // url: '../zhihu/splash/splash'
+      url: '../zhihu/themelist/themelist'
     })
   },
   onLoad: function () {

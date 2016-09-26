@@ -1,9 +1,12 @@
 <view class="themes_container">
     <view class="list_item" wx:for="{{themes}}"  wx:for-index="idx" bindtap="onItemClick" data-idx="{{idx}}">
         <view class="list_top">
-            <text class="list_item_text">{{item.name}}</text>
+            <view class="list_left">
+                <text class="list_item_text">{{item.name}}</text>
+                <text class="list_item_text2">{{item.description}}</text>
+            </view>
             <image class="list_item_icon" src="{{item.thumbnail}}"></image>
         </view>
-        <view class="line"></view>
+        <!--<view class="line"></view>-->
     </view>
 </view>

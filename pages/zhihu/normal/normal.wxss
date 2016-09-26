@@ -20,6 +20,11 @@
     align-items: center;
     justify-content: center;
     padding: 10rpx;
+    margin: 10rpx;
+    
+    border: 1rpx solid #eee;
+    border-bottom: 1rpxpx solid #ccc;
+    border-radius: 5rpx;
 }
 
 .list_item_text {

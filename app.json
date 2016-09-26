@@ -2,16 +2,16 @@
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
-    "pages/zhihu/splash",
-    "pages/zhihu/themelist",
-    "pages/zhihu/hotnews",
-    "pages/zhihu/normal",
-    "pages/zhihu/detail"
+    "pages/zhihu/splash/splash",
+    "pages/zhihu/themelist/themelist",
+    "pages/zhihu/hotnews/hotnews",
+    "pages/zhihu/normal/normal",
+    "pages/zhihu/detail/detail"
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#00a2ea",
     "navigationBarTitleText": "XioxiazhihuWx",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle":"white"
   }
 }

@@ -4,6 +4,6 @@
             <text class="list_item_text">{{item.title}}</text>
             <image class="list_item_icon" src="{{item.images[0]}}"></image>
         </view>
-        <view class="line"></view>        
+        <!--<view class="line"></view>        -->
     </view>
 </view>

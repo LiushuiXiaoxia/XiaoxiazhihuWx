@@ -37,7 +37,7 @@ Page({
         var idx = event.currentTarget.dataset.idx;
         var item = this.data.stories[idx];
         console.log('item = '+JSON.stringify(item))
-        var url =  './detail?id='+item.id+'&title='+item.title;
+        var url =  '../detail/detail?id='+item.id+'&title='+item.title;
         // url = 'http://daily.zhihu.com/story/'+item.id;
         console.log('url = '+url);
         wx.navigateTo({url:url});
