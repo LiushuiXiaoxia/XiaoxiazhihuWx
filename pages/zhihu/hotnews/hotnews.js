@@ -1,7 +1,8 @@
 // hotnews.js
 Page({
   data: {
-    stories:[]
+    stories:[],
+    tops:[]
   },
   onLoad: function () {
       console.log('hotnews.onLoad');
@@ -13,9 +14,11 @@ Page({
         header:{"Content-Type":"application/json","Cache-Control":"no-cache"},
         success: function(res) {
             var stories = res.data.stories;
+            var tops = res.data.top_stories;
             console.log('data = '+JSON.stringify(res.data));
             that.setData({
-              stories:stories
+              stories:stories,
+              tops:tops
             });
         },
         fail:function(error) {

@@ -4,6 +4,11 @@
     width: 100%;
     flex-direction: column;
 }
+.slide-image {
+    width: 100%;
+    height: 350rpx;
+}
+
 .list {
     flex:1;
 }

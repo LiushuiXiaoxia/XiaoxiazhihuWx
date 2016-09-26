@@ -1,4 +1,11 @@
 <view class="themes_container">
+    <swiper indicator-dots="true" autoplay="true" interval="3000" duration="500">
+        <block wx:for="{{tops}}">
+            <swiper-item>
+            <image src="{{item.image}}" class="slide-image"/>
+            </swiper-item>
+        </block>
+    </swiper>
     <view class="list_item" wx:for="{{stories}}"  wx:for-index="idx" bindtap="onItemClick" data-idx="{{idx}}">
         <view class="list_top">
             <text class="list_item_text">{{item.title}}</text>
