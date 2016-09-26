@@ -1,5 +1,6 @@
 <view class="themes_container">
-    <text>{{detail.title}}</text>
+    <image src="{{detail.images[0]}}" class="image"></image>
+    <text class="title">{{detail.title}}</text>
     <!--<navigator url="{{detail.share_url}}">{{detail.share_url}}</navigator>-->
-    <text>{{detail.body}}</text>
+    <text class="content">{{detail.body}}</text>
 </view>
